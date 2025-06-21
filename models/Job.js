@@ -8,6 +8,7 @@ const JobSchema = new mongoose.Schema({
   ctc: String,
   location: String,
   applyLink: String,
+  description: String,
   postedAt: {
     type: Date,
     default: Date.now,
